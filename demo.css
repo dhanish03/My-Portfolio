@@ -1,0 +1,45 @@
+/* Tailwind CSS classes are used inline with Tailwind's utility-first approach */
+
+/* Additional custom CSS for specific styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    padding: 0 20px; /* Adjust padding as needed */
+    margin: auto; /* Center align the container */
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #d6e1d5;
+}
+
+p {
+    color: #555;
+}
+
+button {
+    background-color: #4a90e2;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ad1;
+}
+
+.list-disc > li {
+    margin-left: 20px;
+}
+
+/* Dark mode toggle button styles */
+.dark {
+    background-color: #1a202c;
+    color: #e2e8f0;
+}
+
+/* Add more custom styles as needed */
