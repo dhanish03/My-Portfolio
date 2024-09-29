@@ -8,17 +8,26 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
-    <nav class="bg-gray-800 p-3 ">
-        <div class="container mx-auto flex items-center">
-            <!-- Left Navbar Placeholder (empty for now) -->
-        </div>
-        
-        <!-- Main Navbar -->
-        <div class="container mx-auto flex items-center">
-            <h1 class="text-white text-4xl font-bold">ABDUL DHANISH</h1>                 
-            <div class="text-white text-lg ml-6">
-                <p>Mobile: +91 9515869226 | Email: abduldhanish03@gmail.com</p>
-                
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Left: Navbar Links -->
+            <div class="flex items-center space-x-4">
+                <h1 class="text-white text-4xl font-bold"> ABDUL DHANISH |</h1>
+                <a href="#welcome" class="text-white text-lg">Home |</a>
+                <a href="#about" class="text-white text-lg">About Me |</a>
+                <a href="#skills" class="text-white text-lg">Skills |</a>
+                <a href="#projects" class="text-white text-lg">Projects |</a>
+                <a href="#certifications" class="text-white text-lg">Certifications |</a>
+                <a href="#internships" class="text-white text-lg">Internships |</a>
+                <a href="#contactme" class="text-white text-lg">Contact Me</a>
+            </div>
+            
+            <!-- Right: Personal Details -->
+            <div class="text-white text-lg text-left">
+                <p>Mobile: +91 9515869226</p>
+                <p>Email: abduldhanish03@gmail.com</p>
                 <div class="flex space-x-4 mt-2">
                     <a href="https://github.com/dhanish03" target="_blank" class="text-white">GitHub</a>
                     <span class="text-white">|</span>
@@ -28,64 +37,97 @@
         </div>
     </nav>
 
+    <!-- Content -->
     <div class="container mx-auto py-8 flex flex-wrap items-start justify-between">
-        
         <div class="w-full lg:w-2/3 pr-4 lg:border-r lg:border-gray-300">
-            <section id="about" class="mb-8 pl-4 border-l-4 border-gray-800">
-                <h2 class="text-3xl font-bold mb-4"> About Me</h2>
-                <p class="text-lg">I am a passionate software developer specializing in web development,</p>
-                <p class="text-lg">With proficiency in C++, Java, HTML, CSS, JavaScript, React.js, SQL.</p> 
-                <p class="text-lg">I am dedicated to continuous learning and always strive to stay updated with the latest technologies in the field.</p>
+            <section id="about" class="mb-8 pl-4 ">
+                <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                <p class="text-lg">A passionate software developer specializing in web development, with proficiency in Java, HTML5, CSS3, TailwindCSS, JavaScript, React.js, MySQL, Python, C++, Power BI, Object-Oriented Programming, DBMS, Operating Systems, Computer Networks, and Data Structures & Algorithms. I am driven by a commitment to leveraging both my technical proficiency and leadership abilities. Eager to join a forward-thinking organization, I aim to contribute to impactful projects, foster innovation, and stay at the forefront of industry advancements. My goal is to drive success through continuous learning and adaptable solutions in an ever-evolving tech landscape.</p>
+            
             </section>
 
-            <section id="projects" class="mb-8 pl-4 border-l-4 border-gray-800">
-                <h2 class="text-3xl font-bold mb-4">Projects</h2>
-                <div id="projectList" class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
-            </section>
-
-            <section id="skills" class="mb-8 pl-4 border-l-4 border-gray-800">
+            <section id="skills" class="mb-8 pl-4">
                 <h2 class="text-3xl font-bold mb-4">Skills</h2>
                 <ul class="list-disc list-inside">
-                    <li>C++, Java</li>
-                    <li>HTML3, CSS5, JavaScript
+                    <li>Java,C++</li>
+                    <li>HTML5, CSS3, TailwindCSS</li>
+                    <li>JavaScript</li>
                     <li>React.js</li>
                     <li>Python</li>
-                    <li> SQL, DBMS </li>
-                    <li> Data Structures</li>
-                    <li> Operating Systems, Computer Networks</li>
-
+                    <li>MYSQL, DBMS</li>
+                    <li>Power BI</li>
+                    <li>Data Structures</li>
+                    <li>Operating Systems, Computer Networks</li>
                 </ul>
             </section>
-            <section id="Hobbies" class="mb-8 pl-4 border-l-4 border-gray-800">
+
+            <section id="projects" class="mb-8 pl-4">
+                <h2 class="text-3xl font-bold mb-4">Projects</h2>
+                <div id="projectList" class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
+                <p> To check more projects kindly visit my github profile : <a href="https://github.com/dhanish03" target="_blank" class="text-black font-bold text-center underline underline-offset-1">GitHub</a> </p>
+            </section>
+
+            <section id="certifications" class="mb-8 pl-4 ">
+                <h2 class="text-3xl font-bold mb-4">Certifications</h2>
+                <ul class="list-disc list-inside">
+                    <li>Introduction to networks by Cisco</li>
+                    <li>Data Analysis with Python by freeCodeCamp</li>
+                    <li>Hands-on Machine Learning Workshop</li>
+                    <li>Cloud foundations, AWS Academy </li>
+                    <li>Certified by HackerRank in SQL(Basic)</li>
+                    <li>English Proficiency by Pearson mepro</li>
+                </ul>
+            </section>
+
+            <section id="internships" class="mb-8 pl-4 ">
+                <h2 class="text-3xl font-bold mb-4">Internships</h2>
+                <ul class="list-disc list-inside">
+                    <li>Android Developer - Google | July 2024 - September 2024 | Hyderabad</li>
+                    <li>Networking Cloud - Juniper Networks | April 2024 - June 2024 | Hyderabad</li>
+                    <li>Artificial Intelligence and Machine Learning - Amazon AWS | September 2023 - November 2023 | Hyderabad</li>
+                    <li>Cybersecurity - Palo Alto Networks | January 2024 - March 2024 | Hyderabad</li>
+                    <li>Data Analytics - Amazon AWS | May 2023 - July 2023 | Hyderabad</li>
+                </ul>
+            </section>
+
+            <section id="hobbies" class="mb-8 pl-4 ">
                 <h2 class="text-3xl font-bold mb-4">Hobbies</h2>
                 <ul class="list-disc list-inside">
-                    <li>hiking</li>
+                    <li>Hiking</li>
                     <li>Travelling</li>
                     <li>Photography</li>
                     <li>Playing Cricket</li>
                     <li>Exploring new things</li>
                 </ul>
             </section>
-
-            <section id="internships" class="mb-8 pl-4 border-l-4 border-gray-800">
-                <h2 class="text-3xl font-bold mb-4">Internships</h2>
-                <ul class="list-disc list-inside">
-                    <li>Artificial Intelligence and Machine Learning - Amazon AWS Intern | September 2023 - November 2023 | Hyderabad</li>
-                    <li>Cybersecurity Palo Alto Networks | January-2024 - March-2024 | Hyderabad</li>
-                    <li>Data Analytics - Amazon AWS | May-2023 - July-2023 | Hyderabad</li>
-                </ul>
-            </section>
         </div>
-        
 
         <div class="w-full lg:w-1/3 flex justify-center items-center">
             <img src="adh copy.JPG" alt="ABDUL DHANISH's Photo" class="rounded-lg shadow-md">
         </div>
     </div>
 
-    <footer class="bg-gray-800 text-white text-center py-4">
-        <div class="container mx-auto">
-            <p>&copy; 2024 ABDUL DHANISH's Portfolio. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-black py-8">
+        <div class="container mx-auto text-center">
+            <!-- Contact Section -->
+            <section id="contactme" class="mb-8">
+                <h2 class="text-3xl text-white font-bold mb-4">Contact Me</h2>
+                <form class="space-y-4">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full p-2 border rounded">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full p-2 border rounded">
+                    </div>
+                    <div>
+                        <textarea placeholder="Your Message" class="w-full p-2 border rounded"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded ">Send Message</button>
+                </form>
+            </section>
+            
+            <p class="text-white font-bold">&copy; 2024 ABDUL DHANISH's Portfolio. All rights reserved.</p>
         </div>
     </footer>
 
