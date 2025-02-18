@@ -4,9 +4,10 @@ const projects = [
     { name: 'Credit Card Fraud Detection', description: 'Developed a machine learning model to detect fraudulent credit card transactions using Python and scikit-learn.' },
     { name: 'Image Search Application', description: 'Built a search application utilizing the Unsplash API to fetch and display images based on user queries.' },
     { name: 'Diwali Sales Analysis', description:'Analyzed Diwali sales data to uncover valuable insights and trends using data analytics techniques.' },
-    { name: 'Search Images', description:'An image search project using Frontend with API.' },
-    { name: 'Color Matcher Game', description: 'A simple Java application where users guess a randomly generated color.' },
-    { name: 'To Do List', description: 'A web application to help users manage their tasks efficiently.' },
+    { name: 'Realiance Sales Report', description: 'This project showcases a dynamic and interactive Power BI dashboard designed to analyze sales performance. The dashboard provides key insights into various aspects of sales data, including product-wise performance, region-based revenue, and profitability trends.' },
+    {name:'Food Delivery App Design', description:'A prototype for a food delivery mobile app designed to simplify the user journey from exploring restaurants to placing orders and tracking deliveries.'},
+    {name:'Rock Paper ',description:'This is a simple implementation of the classic Rock, Paper, Scissors game, where a player competes against the computer.'}
+    
 ];
 
 // Function to generate project cards
