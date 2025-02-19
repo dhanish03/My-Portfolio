@@ -1,6 +1,7 @@
 # Portfolio Website
 
 This is the repository for my personal portfolio website, where I showcase my projects, skills, and experiences.
+And to check out the graphic design based portfolio its uploaded in files.
 
 ## Technologies Used:
 - HTML5
@@ -15,6 +16,7 @@ Here are some of the projects featured on the portfolio:
 - **Credit Card Fraud Detection:** A machine learning model to detect fraudulent transactions.
 - **Image Search Application:** A search app using the Unsplash API.
 - **To-Do List Application:** A simple to-do list app for task management.
+- for more projects check my github repo's.
   
 Once you've added the content to your `README.md` file, you can commit and push it to your GitHub repository.
 
